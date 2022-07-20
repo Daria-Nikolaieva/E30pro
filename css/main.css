@@ -1,0 +1,73 @@
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+:root {
+    --body-bg: #000000;
+    --section-bg: #E3E3E3;
+    --text-color: #FFFFFF;
+    --button-color: #FE0000;
+    --logo-border-color: #E3E3E3;
+}
+
+body {
+    background-color: var(--body-bg);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+}
+
+.logo {
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+h1 {
+/*     font-weight: 400; */
+    font-size: 24px;
+}
+
+.contact {
+    font-size: 16px;
+}
+
+.catalog h3 {
+    font-size: 13px;
+}
+
+.price {
+    font-family: 'Inter', sans-serif;  
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.features h3 {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.order {
+    background-color: var(--section-bg);
+    color: var(--body-bg);
+}
+
+.order h2 {
+    font-size: 24px;
+}
+
+.button {
+    background-color: var(--button-color);
+    color: var(--text-color);
+    border-style: none;
+}
+
+.nav a, .footer a {
+    color: var(--text-color);
+}
+
